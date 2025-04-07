@@ -1,8 +1,7 @@
-package br.edu.fatec.main;
+package br.edu.fatec.factory;
 
 import br.edu.fatec.factory.impl.ShapeFactoryImpl;
 import br.edu.fatec.factory.shape.ShapeType;
-import br.edu.fatec.factory.Calculable;
 
 public class TestUtils {
     static ShapeFactoryImpl shapeFactory = new ShapeFactoryImpl();
